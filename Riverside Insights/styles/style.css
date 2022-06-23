@@ -1,0 +1,339 @@
+@font-face {
+  font-family: Nova;
+  src: url("./FontsFree-Net-ProximaNova-Regular\ \(1\).ttf");
+}
+body {
+  font-family: "Nova";
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* =========================================navigation bar section =========================== */
+.nav-bg-color {
+  background-color: rgba(9, 2, 45, 0.09) #ffffff;
+  box-shadow: 0 0 18px 0 rgb(9 2 45 / 14%);
+ 
+}
+.nav-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+}
+.nav-main img {
+  height: 37px;
+  width: 276px;
+}
+.vertical-line {
+  height: 11px;
+  border: 1px solid;
+  color: #ababab;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #ababab;
+}
+.login-img img {
+
+  width: 309px;
+}
+.login-content-main {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0px;
+  width: 80%;
+}
+.logo-on-img {
+  background-image: url(../images/riveersidelogomain.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  border-radius: 10px 0px 0px 10px;
+}
+.login-bg {
+  display: flex;
+  justify-content: center;
+}
+.login-img {
+  background-image: url(../images/loginimg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  border-radius: 10px 0px 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 533px;
+  width: 40%;
+  box-shadow: 0 0 18px 0 rgba(9, 2, 45, 16%);
+  border-radius: 0px 10px 10px 0px;
+}
+.user-name input {
+  height: 45px;
+  width: 350px;
+  padding-left: 10px;
+  margin-top: 10px;
+  border-color: #c9c9c9;
+  border: 1px solid #c9c9c9;
+  outline-color: #c9c9c9;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333333;
+}
+.login-form input::placeholder {
+  color: #333333;
+  font-weight: 500;
+}
+
+.password input {
+  height: 45px;
+  width: 350px;
+  padding-left: 10px;
+  margin-top: 10px;
+  border-color: #c9c9c9;
+  border: 1px solid #c9c9c9;
+  outline-color: #c9c9c9;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333333;
+}
+.login-content-main .login-form .user-name {
+  display: flex;
+  flex-direction: column;
+  padding-top: 35px;
+}
+
+.login-content-main .login-form .password {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0px;
+}
+.login-content-main .login-txt-btn-main {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-content-main .login-txt-btn-main a {
+  text-decoration: none;
+  color: #0383c9;
+  cursor: pointer;
+  padding-top: 30px;
+}
+
+/* ======================================form one designing start here======================== */
+
+.form-main {
+  min-width: auto;
+  box-shadow: 0 0 18px 0 rgb(9 2 45 / 16%);
+  margin: 60px 0px;
+  border-radius: 8px;
+}
+
+.form-header-bg {
+  padding: 28px 28px;
+  background-color: #e7f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.custom-radio-btn-inner1 {
+  background-color: #b2b2b2;
+  border-radius: 50%;
+  padding: 7px 7px;
+  border: none;
+  z-index: 1;
+}
+
+.radio-btn-line-color {
+  background-color: #81c442;
+}
+
+.line-border {
+  border-top: 1px solid #b2b2b2;
+  width: 235px;
+  position: absolute;
+  left: 22px;
+  top: 55px;
+}
+
+.line-form-two {
+  width: 207px;
+  position: relative;
+  top: -45px;
+  left: 221px;
+  border: 1px solid #81c442;
+}
+.line-form-two-right {
+  border: 1px solid #b2b2b2;
+  width: 456px;
+  position: absolute;
+  right: 328px;
+  top: 217px;
+}
+
+/* =============================form setion start here=========================================*/
+
+.radio-btn-with-txt-main .one {
+  color: #81c442;
+  font-weight: 100;
+}
+.radio-btn-with-txt-main .two {
+  color: #b2b2b2;
+  font-weight: 100;
+}
+
+.radio-btn-height {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* ==============================row one designing start here================================ */
+.reading-math-main {
+  display: flex;
+  width: 72%;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+.row-one-left {
+  width: 40%;
+}
+.row-one-right {
+  width: 40%;
+}
+.row-one-right .row-one-data {
+  margin-top: 10px;
+}
+
+.spacing-div {
+  width: 411px;
+  height: 45px;
+  opacity: 0.8;
+  border-radius: 5px;
+  border: solid 2px #c9c9c9;
+  outline: none;
+}
+
+/* ==============================row two designing start here================================ */
+
+.row-two-left {
+  width: 40%;
+}
+.row-two-right {
+  width: 40%;
+}
+
+.row-two-main .row-two-left .g5-drop-down {
+  width: 100px;
+  height: 45px;
+  opacity: 0.8;
+  border-radius: 0px 5px 5px 0px;
+  border: solid 2px #c9c9c9;
+  outline: none;
+  border-left: none;
+}
+
+/* ==============================row three designing start here============================== */
+
+.row-three-main .row-three-left {
+  width: 40%;
+}
+
+.row-three-main .row-three-right {
+  width: 40%;
+  display: flex;
+  align-items: flex-end;
+}
+/* ==============================row four designing start here============================== */
+
+/* ======================left section================================================ */
+.row-four-main .row-four-left-main {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+/* ==============================right section========================================= */
+
+.row-four-main .row-four-right-main {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+/* ===================   row five section start here section================================== */
+
+.row-five-left-inner-main {
+  display: flex;
+  justify-content: space-between;
+  width: 410px;
+}
+.row-five-right-main {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+.row-five-second-main {
+  display: flex;
+  flex-direction: column;
+  width: 43%;
+  justify-content: space-between;
+}
+.row-five-radio-main {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+/* ==================================row six section start here============================== */
+.row-six-main-left {
+  width: 40%;
+}
+.row-six-right-main {
+  width: 40%;
+}
+/* ======================================row seven start here=============================== */
+
+.row-seven-main {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.row-six-radio-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-btn-main {
+  padding: 28px 28px;
+  box-shadow: 0 0 18px 0 rgb(9 2 45 / 14%);
+  margin: 60px 0px;
+  border-radius: 0px 0px 8px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

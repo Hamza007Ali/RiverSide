@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>riverside Formone</title>
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/riverside-common-classes.css" />
+</head>
+<body>
+  <!-- ======================top nav bar header start here================================ -->
+  <div class="nav-bg-color">
+    <div class="nav-main">
+      <img src="images/riveersidelogomain.png" />
+      <nav>
+        <ul>
+          <li><a href="#0">Hello! Sumit</a></li>
+          <hr class="vertical-line" />
+          <li><a href="#0">Home</a></li>
+          <hr class="vertical-line" />
+          <li><a href="#0">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <!-- ========================form section start here ==================================== -->
+  <div class="container-riverside">
+    <div class="form-main">
+      <div class="form-header-bg">
+        <!-- ====================radio btn one==================== -->
+        <div class="radio-btn-with-txt-main"> 
+          <div class="line-border">
+          </div>
+           <p class="one">Pool</p>
+           <div class="radio-btn-height">
+            <div class="custom-radio-btn-outer"> 
+              <div class="custom-radio-btn-inner1" style="background-color: #81c442;">
+                 </div>
+              </div>
+            </div>
+            </div>
+        <!-- ====================radio btn two================ -->
+        <div class="radio-btn-with-txt-main"> 
+          <div class="line-border">
+          </div>
+          <p class="two">Item</p> 
+          <a href="http://127.0.0.1:5500/Formtwo.html"style="cursor: pointer;">
+            <div class="radio-btn-height">
+             <div class="custom-radio-btn-inner1">
+             </div>  </a></div>
+       </div> 
+        <!-- ====================radio btn three================ -->
+        <div class="radio-btn-with-txt-main"> 
+          <div class="line-border">
+          </div>
+          <p class="two">Score</p>
+          <div class="radio-btn-height">
+             <div class="custom-radio-btn-inner1">
+             </div> 
+          </div>
+       </div> 
+        <!-- ====================radio btn four================ --> 
+        <div class="radio-btn-with-txt-main"> 
+          <p class="two">Result</p>
+          <div class="radio-btn-height">
+             <div class="custom-radio-btn-inner1">
+             </div>
+            </div>
+       </div> 
+      </div>
+      <!--- =======================form inner content section  start here=================== -->
+      <div class="form-container form-inner-content-all">
+        <!-- ==================row one start here================= -->
+        <div class="rows-all-common  rows-section-padding">
+          <div class="row-one-left">
+            <label class="form-txt-dark-black" for="subject">Subject</label>
+            <div class="reading-math-main form-txt-light-black rows-inner-sec-margin-top" style="margin-top: -3px">
+              <div class="df-radio-btn">
+                <div><input class="radio-btn-sizing " type="radio" value="" name="radio" style="margin-left: -2px;"/></div>
+                <div><label class="radio-txt-spacing" for="reading">Reading</label>
+                </div>
+              </div>
+              <div class="df-radio-btn">
+                <div> <input class="radio-btn-sizing" type="radio" value="" name="radio" /></div>
+                <div><label class="radio-txt-spacing" for="lable">Math</label></div>
+              </div>
+            </div>
+          </div>
+          <div class="row-one-right">
+            <div>
+              <p class="form-txt-dark-black">Item pool</p>
+            </div>
+            <div class="rows-inner-sec-margin-top">
+              <div class="spacing-div dropdown-options">
+              <select class=" form-txt-light-black rows-inner-sec-margin-top" name="items"
+                style="    padding: 11px;
+                /* margin-left: 175px; */
+                width: 385px;
+                border: transparent; outline: none;">
+                <option value="math-01">Itempool_math_01_19</option>
+                <option value="math-01">Itempool_math_02_19</option>
+                <option value="math-01">Itempool_math_03_19</option>
+                <option value="math-01">Itempool_math_04_19</option>
+              </select></div>
+            </div>
+            </div>
+          </div>
+        <!-- ==================row two start here================= -->
+
+        <div class="rows-all-common row-two-main rows-section-padding">
+          <div class="row-two-left lable-streching">
+            <div class="form-lable-all df-labels form-txt-dark-black"><label>Grade</label></div>
+            <div class="g5-drop-down" >
+              <select class="form-txt-dark-black " name="items" style="    padding: 10px;
+              width: 87px;
+              outline: none;
+              border: transparent;">
+                <option value="math-01">G5</option>
+                <option value="math-01">G6</option>
+                <option value="math-01">G7</option>
+                <option value="math-01">G8</option>
+              </select>
+            </div>
+          </div>
+          <div class="row-two-right lable-streching">
+            <div class="form-lable-all df-labels form-txt-dark-black"><label>Number of examinees</label></div>
+            <div class="form-input-type-large"><input class=" form-txt-light-black small-trans" type="number" id="quantity" name="quantity"
+                min="1" max="100" placeholder="1" /></div>
+          </div>
+        </div>
+        <!-- ==================row three start here================= -->
+        <div class=" rows-all-common row-three-main rows-section-padding">
+          <div class="row-three-left">
+            <label class="form-txt-dark-black" for="subject">Theta Distribution</label>
+            <div class="distribution-txt-radio rows-inner-sec-margin-top">
+              <input class="radio-btn-sizing" type="radio" value="" name="radio" style="    margin-left: 3px;" />
+              <label class="radio-txt-spacing" for="reading">Normal</label>
+            </div>
+          </div>
+          <div class="row-three-right rows-inner-sec-margin-top df-radio-btn">
+            <div><input class="radio-btn-sizing" type="radio" value="" name="radio" style="margin-bottom: 4px; margin-left: 4px;" /></div>
+            <div><label class="radio-txt-spacing" for="reading">Uniform</label></div>
+          </div>
+        </div>
+        <!-- ==================row four start here================= -->
+        <div class=" rows-all-common row-four-main rows-section-padding">
+          <!-- ============left main start here================ -->
+          <div class="row-four-left-main lable-streching">
+            <!-- ============left first section start here================ -->
+            <div class="row-four-left-first-main lable-streching">
+              <div class="row-four-first-one form-label-all-small df-labels form-txt-dark-black">
+                <label>Mean</label>
+              </div>
+              <div class="row-four-first-two lable-streching">
+                <input class="form-input-type-small form-txt-light-black" type="number" id="text" placeholder="1" />
+              </div>
+            </div>
+            <!-- ============left second section  start here================ -->
+            <div class="row-four-left-second-main lable-streching">
+              <div class="row-four-first-two form-label-all-small df-labels form-txt-dark-black">
+                <label>SD</label>
+              </div>
+              <div class="row-four-first-two">
+                <input class="form-input-type-small form-txt-light-black" type="number" id="text" placeholder="2" />
+              </div>
+            </div>
+          </div>
+
+          <!-- ============right main start here================ -->
+          <div class="row-four-right-main">
+            <!-- ============right first section start here================ -->
+            <div class="row-four-right-first-main lable-streching">
+              <div class="row-four-first-one lable-streching form-label-all-small df-labels form-txt-light-black">
+                <label>Min</label>
+              </div>
+              <div class="row-four-first-two lable-streching">
+                <input class="form-input-type-small form-txt-light-black" type="number" id="text" placeholder="0" />
+              </div>
+            </div>
+            <!-- ============right second section  start here================ -->
+            <div class="row-four-right-second-main lable-streching">
+              <div class="row-four-first-two form-label-all-small df-labels form-txt-light-black">
+                <label>Max</label>
+              </div>
+              <div class="row-four-first-two">
+                <input class="form-input-type-small form-txt-light-black" type="number" id="text" placeholder="0" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ==================row five start here================= -->
+        <div class="rows-all-common row-five-main rows-section-padding">
+          <div>
+            <label class="form-txt-dark-black" for="subject">Theta Ranges</label>
+            <div class="row-five-left-inner-main lable-streching rows-inner-sec-margin-top">
+              <div class="row-five-left-one-main lable-streching">
+                <div class="row-five-first-one form-label-all-small df-labels form-txt-dark-black">
+                  <label>Min</label>
+                </div>
+                <div class="row-five-first-two">
+                  <input class="form-input-type-small form-txt-light-black" type="number" id="number" placeholder="1" />
+                </div>
+              </div>
+              <div class="row-five-left-two-main lable-streching">
+                <div class="row-five-first-one form-label-all-small df-labels form-txt-dark-black">
+                  <label>Max</label>
+                </div>
+                <div class="row-five-first-two">
+                  <input class="form-input-type-small form-txt-light-black" type="number" id="number" placeholder="3" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ===================row five left main=============================== -->
+          <div class="rows-all-common row-five-right-main">
+            <div class="row-five-first-main">
+              <label class="form-txt-dark-black" for="subject">Theta Increment</label>
+              <div class="row-five-decimal-input rows-inner-sec-margin-top">
+                <input class="input-decimal form-txt-light-black" type="number" for="decimal" name="num" placeholder="0.03">
+              </div>
+            </div>
+            <div class="row-five-second-main">
+              <label class="form-txt-dark-black" for="subject">Scaling</label>
+              <div class="row-five-radio-main rows-inner-sec-margin-top">
+                <div class="df-radio-btn">
+                  <input class="radio-btn-sizing" type="radio" value="" name="radio" />
+                  <label class="radio-txt-spacing" for="reading">1.0</label>
+                </div>
+                <div class="df-radio-btn">
+                  <input class="radio-btn-sizing" type="radio" value="" name="radio" />
+                  <label class="radio-txt-spacing" for="reading">1.7</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ================================row six section start here================= -->
+
+        <!-- ============section left============= -->
+        <div class="rows-all-common row-six-main rows-section-padding">
+          <div class="row-six-main-left">
+            <div><label class="form-txt-dark-black" for="subject">Theta Ranges</label></div>
+            <div class="row-six-left lable-streching  rows-inner-sec-margin-top">
+              <div class="form-lable-all df-labels form-txt-dark-black"><label>Generate Replication Data Sets</label>
+              </div>
+              <div class="row-six-input form-input-type-large">
+                <input class=" form-txt-light-black small-trans" type="number" id="text" placeholder="1" />
+              </div>
+            </div>
+          </div>
+          <!-- =============================section right=============== -->
+          <div class="row-six-right-main">
+            <div><label class="form-txt-dark-black" for="subject">Item/Pool Characteristics</label></div>
+            <div class="row-six-right lable-streching rows-inner-sec-margin-top">
+              <div class="form-lable-all df-labels form-txt-dark-black"><label>Number Of Items In Pool</label></div>
+              <div class="row-six-input lable-streching form-input-type-large">
+                <input class=" form-txt-light-black small-trans" type="number" id="text" placeholder="100" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ============================row seven section start here=================== -->
+        <div class="rows-all-common row-seven-main rows-section-padding">
+          <div>
+            <label class="form-txt-dark-black" for="subject">IRT Model</label>
+          </div>
+          <div class="row-six-radio-main rows-inner-sec-margin-top">
+            <div class="df-radio-btn">
+              <input class="radio-btn-sizing" type="radio" value="" name="radio" style="    margin-left: -2px;" />
+              <label class="radio-txt-spacing" for="reading">Rasch/1 PL</label>
+            </div>
+            <div class="second-radio">
+              <input class="radio-btn-sizing" type="radio" value="" name="radio" />
+              <label class="radio-txt-spacing" for="reading">2PL</label>
+            </div>
+            <div class="third-radio">
+              <input class="radio-btn-sizing" type="radio" value="" name="radio" />
+              <label class="radio-txt-spacing" for="reading">3PL</label>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <!-- ===========================footer buttons section========================== -->
+      <div class="footer-btn-main">
+        <button class="form-btn-one form-txt-light-black">Back</button>
+        <button class="form-btn-two form-txt-light-black">Next</button>
+      </div>
+    </div>
+</body>
+</html>

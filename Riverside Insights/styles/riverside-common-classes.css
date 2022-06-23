@@ -1,0 +1,212 @@
+.container-riverside {
+  width: 1140px;
+  margin: 0px auto;
+  clear: both;
+}
+.form-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.clearfix {
+  display: inline-block;
+}
+.df {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rows-all-common {
+  display: flex;
+  justify-content: space-between;
+}
+.riverside-font-small {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.93;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ababab;
+}
+.login-btn {
+  width: 123px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #0383c9;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+}
+/* ============================form one common classes start here============================= */
+
+.custom-radio-btn-outer {
+  border: 1px solid #81c442;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  z-index: 1;
+  margin: 0;
+  padding: 0px;
+}
+.custom-radio-btn-inner {
+  border: none;
+  border-radius: 50%;
+  padding: 7px 7px;
+  background-color: #b2b2b2;
+}
+.radio-btn-with-txt-main {
+  position: relative;
+}
+.lable-streching {
+  display: flex;
+}
+/* ========================row one common classes start here===================== */
+.form-txt-dark-black {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #333333;
+}
+.form-txt-light-black {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.69;
+  color: #333333;
+}
+
+.dropdown-options {
+  width: 411px;
+  height: 45px;
+  opacity: 0.8;
+  border-radius: 5px;
+  border: solid 2px #c9c9c9;
+  outline: none;
+}
+.radio-txt-spacing {
+  margin-left: 18px;
+}
+.rows-section-padding {
+  padding-top: 30px;
+}
+.rows-inner-sec-margin-top {
+  padding-top: 10px;
+}
+
+.small-trans {
+  margin-left: -4px;
+  padding-top: 6px;
+  outline: none;
+  border: transparent;
+  width: 65px;
+}
+/* ========================row two common classes start here===================== */
+
+.form-lable-all {
+  height: 45px;
+  width: 312px;
+  opacity: 1.8;
+  border-radius: 5px 0px 0px 5px;
+  border: solid 2px #c9c9c9;
+  outline: none;
+  padding-left: 20px;
+  background-color: #f6f6f6;
+}
+.form-label-all-small {
+  width: 128px;
+  height: 45px;
+  opacity: 1.8;
+  border-radius: 5px 0px 0px 5px;
+  border: solid 2px #c9c9c9;
+  outline: none;
+  padding-left: 20px;
+  background-color: #f6f6f6;
+}
+.form-input-type-small {
+  width: 50px;
+  height: 45px;
+  opacity: 0.8;
+  border-radius: 0px 5px 5px 0px;
+  border: solid 2px #c9c9c9;
+  outline: none;
+  border-left: none;
+  text-align: center;
+}
+
+.form-input-type-large {
+  width: 100px;
+  height: 45px;
+  opacity: 0.8;
+  border-radius: 0px 5px 5px 0px;
+  border: solid 2px #c9c9c9;
+  outline: none;
+  border-left: none;
+  padding-left: 20px;
+}
+.df-labels {
+  display: flex;
+  align-items: center;
+}
+.df-rows-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ========================= row five section  common decimal input type ==================*/
+
+.input-decimal {
+  width: 178px;
+  height: 45px;
+  opacity: 1.8;
+  border-radius: 5px;
+  border: solid 2px #c9c9c9;
+  outline: none;
+  padding-left: 20px;
+  background-color: #f6f6f6;
+}
+/* ========================================footer btn==================================== */
+
+.form-btn-one {
+  width: 123px;
+  height: 50px;
+  background-color: #81c442;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.form-btn-two {
+  width: 123px;
+  height: 50px;
+  background-color: #0383c9;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/*========================================sizing of radio button============================== */
+
+.radio-btn-sizing {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+  margin-top: 3px;
+}
+.df-radio-btn {
+  display: flex;
+  margin-left: 5px;
+}
+.radio-btn-margin {
+  margin-left: -3px;
+}
